@@ -36,6 +36,8 @@ html body {
   object-fit: cover;
   z-index: -1;
   position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+
 }
 
 .video-background {
@@ -54,7 +56,7 @@ html body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.836);
   z-index: 0;
 }
 
@@ -62,7 +64,7 @@ html body {
   position: relative;
   color: wheat;
   text-align: center;
-  padding-top: 1em;
+  /* padding-top: 1em; */
 }
 
 .content h1{
@@ -79,26 +81,14 @@ html body {
   justify-content: left;
 }
 
-
-
-@media (max-width : 768px) {
-  /* .content h1 {
-    font-size: 50px;
-    width: 100%;
-
-  } */
+.ui-button-wpp {
+  background-color: #25d366;
+}
+.ui-button-wpp {
+  border-color: #25d366;
 }
 
-@media (max-width : 768px) {
-  /* .content h1 {
-    font-size: 50px;
-    width: 100%;
-
-  } */
-}
-
-
-@media (max-width : 620px) {
+@media (max-width : 450px) {
   #banner-mobile img {
     width: 100%;
     height: auto;
@@ -107,8 +97,18 @@ html body {
     transition: transform 0.3s ease;
   }
 
-  .ajust-mobile-banner {
-    margin-top: -1em;
+  .content h1{
+    text-align: center;
+    padding-bottom: 0em !important;
+  }
+
+  .content p {
+    text-align: center;
+    padding-bottom: 0em !important;
+  }
+  #hero-btn {
+    display: flex;
+    justify-content: center;
   }
 }
 
