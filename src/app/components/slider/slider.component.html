@@ -1,0 +1,58 @@
+
+<section id="inicio">
+
+  <div>
+    <div
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      class="video-background"
+    >
+      <video
+        *ngIf="isVideoPlaying"
+        #bannerVideo
+        autoplay
+        loop
+        muted
+        plays-inline
+      >
+        <source src="assets/banner-video.MP4" type="video/mp4" />
+        Seu navegador não suporta vídeos em HTML5.
+      </video>
+      <img
+        *ngIf="!isVideoPlaying"
+        src="../../../assets/mobile-alternative.webp"
+        alt="Banner Fallback"
+      />
+
+      <div
+        class="content container mt-5"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        <h1 data-aos="fade-right" data-aos-duration="1500">
+          <span class="highlight">Advocacia </span> Especializada<br />
+          Direito do <span class="highlight">trabalho</span>
+        </h1>
+        <p
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="pb-5"
+          style="font-size: larger"
+        >
+          Consultoria e defesa eficaz em questões trabalhistas.
+          Seu parceiro para garantir justiça no ambiente de trabalho.
+        </p>
+        <div id="hero-btn">
+          <a
+            href="http://wa.me/5511977433859"
+            class="btn btn-primary btn-lg ui-button mr-5"
+          >
+            Obter atendimento personalizado
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
