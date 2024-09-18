@@ -1,0 +1,97 @@
+.square-hero-services {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2em;
+
+}
+
+.sub-title {
+  color: var(--primary);
+  line-height: 100%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+/* #table {
+  justify-content: space-evenly!important;
+  display: flex;
+  background-color: red;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+
+.service-list-content {
+  justify-content: space-evenly;
+  padding-bottom: 4em;
+  display: flex;
+
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 37%;
+}
+
+.service-list div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.coluna div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#dont-do h1 {
+  text-align: center;
+}
+
+.title-section {
+  padding-bottom: 0em !important;
+  /* margin- */
+}
+
+.point {
+  font-size: 2em;
+  width: 1em;
+  margin: -15px 0px 0px 0px;
+  color: var(--primary);
+}
+
+i {
+  margin-top: -10px;
+}
+
+@media (max-width : 998px) {
+  .service-list-content {
+    flex-direction: column;
+    padding-bottom: 4em;
+    display: flex;
+    width: 100%;
+  }
+  .service-list {
+    width: 100%;
+  }
+}
+
+@media (max-width : 768px) {
+  .service-list {
+    display: flex;
+    flex-direction: column;
+    /* Alinha os itens em coluna */
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: flex-start;
+    /* Centraliza horizontalmente */
+    height: 100%;
+    /* Ocupa a altura total disponível */
+  }
+
+}
