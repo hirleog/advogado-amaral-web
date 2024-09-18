@@ -1,1 +1,222 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
+
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+body {
+
+  overflow: hidden;
+
+  max-width: 100%;
+
+  background: var(--secondary);
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Oculta a barra de rolagem no Firefox */
+}
+
+:root {
+  --primary: #ccad5d;
+  --primary-dark: #a58a46;
+
+  --secondary: #0f0f0f;
+  --secondary-transparent: #00000079;
+  --secondary-light: rgba(24, 24, 24, 0.986);
+  --light: white;
+  --medium: #cacacabd;
+  --dark: #a2a2a2;
+
+}
+
+
+.primary-gradient {
+  background: rgb(204, 173, 93);
+  background: -moz-linear-gradient(151deg, rgba(204, 173, 93, 1) 0%, rgba(255, 215, 117, 1) 82%, rgba(204, 173, 93, 1) 98%);
+  background: -webkit-linear-gradient(151deg, rgba(204, 173, 93, 1) 0%, rgba(255, 215, 117, 1) 82%, rgba(204, 173, 93, 1) 98%);
+  background: linear-gradient(151deg, rgba(204, 173, 93, 1) 0%, rgba(255, 215, 117, 1) 82%, rgba(204, 173, 93, 1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ccad5d", endColorstr="#ccad5d", GradientType=1);
+}
+
+
+.service-list i {
+  font-size: 26px;
+  margin-right: 15px;
+  /* color: var(--primary-dark); */
+  background: -moz-linear-gradient(151deg, rgba(204, 173, 93, 1) 0%, rgba(255, 215, 117, 1) 82%, rgba(204, 173, 93, 1) 98%);
+  background: -webkit-linear-gradient(151deg, rgba(204, 173, 93, 1) 0%, rgba(255, 215, 117, 1) 82%, rgba(204, 173, 93, 1) 98%);
+  background: linear-gradient(151deg, rgba(204, 173, 93, 1) 0%, rgba(255, 215, 117, 1) 82%, rgba(204, 173, 93, 1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ccad5d", endColorstr="#ccad5d", GradientType=1);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+h1 {
+  font-family: 'Century Gothic', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
+
+
+  font-size: 59px;
+  line-height: 1.0em;
+  letter-spacing: 0.10px;
+  text-transform: uppercase;
+
+  color: var(--light);
+  margin: 0em 0px 5px 0px;
+  pointer-events: none;
+  cursor: default;
+
+  padding-bottom: 2em;
+  /* display: flex;
+  justify-content: center; */
+
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+h1::first-letter {
+  text-transform: uppercase;
+  /* Transforma apenas a primeira letra em maiúscula */
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+h2 {
+  font-weight: normal;
+
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+
+  /* color: var(--light); */
+  color: var(--light);
+  font-size: xx-large;
+  margin-top: -2.5em;
+  text-align: left;
+}
+
+h5 {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: normal;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+
+  /* color: var(--light); */
+  color: var(--light);
+  font-weight: bold;
+  font-size: larger;
+
+}
+
+p {
+  /* font-family: 'Century Gothic', sans-serif; */
+  color: var(--light);
+  letter-spacing: 0.5px;
+  /* Espaçamento de 2 pixels entre as letras */
+}
+
+
+.detail {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0px -2em;
+}
+
+
+
+
+.ui-button {
+  padding: 20px 45px;
+  display: inline-block;
+  background-color: var(--primary);
+  color: rgb(255 255 255);
+  font-size: 20px;
+  font-weight: normal;
+  font-family: var(--heading-font-family);
+  border: none;
+  text-transform: lowercase;
+  transform-style: preserve-3d;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+  /* Suaviza o aumento de tamanho */
+
+
+}
+
+.ui-button:hover {
+  padding: 20px 45px;
+  display: inline-block;
+  background-color: #25d366;
+  /* color: var(--light); */
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  border: none;
+  text-transform: lowercase;
+  transform-style: preserve-3d;
+  transform: scale(1.1);
+  /* Aumenta o tamanho em 10% */
+}
+
+
+
+.ui-button::first-letter {
+  text-transform: uppercase;
+  /* Transforma apenas a primeira letra em maiúscula */
+}
+
+@media (min-width: 250px) and (max-width : 500px) {
+  .ui-button {
+    font-size: 13px;
+    padding: 15px 15px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: medium
+  }
+
+}
+
+/* GLOBAL */
+
+
+.bloco {
+  margin-bottom: 45px;
+}
+
+.bloco2 {
+  margin-top: 55px;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
