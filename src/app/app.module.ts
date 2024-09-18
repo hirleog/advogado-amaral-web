@@ -5,10 +5,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './pages/about/about.component';
-import { WhatPeopleSayComponent } from './pages/what-people-say/what-people-say.component';
-import { ScreenServiceComponent } from './pages/screen-service/screen-service.component';
-import { SliderComponent } from './pages/slider/slider.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { ScreenServiceComponent } from './components/screen-service/screen-service.component';
+import { WhatPeopleSayComponent } from './components/what-people-say/what-people-say.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
