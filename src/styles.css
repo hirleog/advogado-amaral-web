@@ -1,8 +1,8 @@
-/*
 
-@import "primeng/resources/themes/lara-light-blue/theme.css";
-@import "primeng/resources/primeng.css";
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 
 html {
   scroll-behavior: smooth;
@@ -69,8 +69,6 @@ body {
 
 h1 {
   font-family: 'Century Gothic', sans-serif;
-  font-family: 'Gothic A1', sans-serif;
-
 
   font-size: 59px;
   line-height: 1.0em;
@@ -135,6 +133,8 @@ p {
   color: var(--light);
   letter-spacing: 0.5px;
   /* Espaçamento de 2 pixels entre as letras */
+    font-family: 'Gothic A1', sans-serif;
+
 }
 
 
@@ -160,21 +160,12 @@ p {
   transform-style: preserve-3d;
   margin-right: 10px;
   transition: transform 0.3s ease;
-  /* Suaviza o aumento de tamanho */
-
-
 }
 
 .ui-button:hover {
-  padding: 20px 45px;
-  display: inline-block;
   background-color: #25d366;
-  /* color: var(--light); */
-  font-size: 20px;
-  font-family: var(--heading-font-family);
   border: none;
   text-transform: lowercase;
-  transform-style: preserve-3d;
   transform: scale(1.1);
   /* Aumenta o tamanho em 10% */
 }
@@ -197,7 +188,7 @@ p {
   }
 
   p {
-    font-size: medium
+    font-size: medium;
   }
 
 }

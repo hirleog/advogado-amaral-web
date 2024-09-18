@@ -37,10 +37,10 @@ html body {
   /* Efeito suave ao rolar */
 }
 
-.navbar-expand-lg.scrolled {
+/* .navbar-expand-lg.scrolled {
   background-color: #00000013;
   transition: background-color 0.3s ease-in-out;
-}
+} */
 
 
 .navbar-collapse {
