@@ -56,7 +56,7 @@ html body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.836);
+  background: rgba(0, 0, 0, 0.462);
   z-index: 0;
 }
 
@@ -67,7 +67,7 @@ html body {
   /* padding-top: 1em; */
 }
 
-.content h1{
+.content h1 {
   text-align: left;
   padding-bottom: 0em !important;
 }
@@ -76,6 +76,7 @@ html body {
   text-align: left;
   padding-bottom: 0em !important;
 }
+
 #hero-btn {
   display: flex;
   justify-content: left;
@@ -83,7 +84,10 @@ html body {
 
 .ui-button-wpp {
   background-color: #25d366;
+  padding: 15px 25px;
+  /* padding: 8px 16px; */
 }
+
 .ui-button-wpp {
   border-color: #25d366;
 }
@@ -97,18 +101,26 @@ html body {
     transition: transform 0.3s ease;
   }
 
-  .content h1{
-    text-align: center;
+  .content h1 {
+    text-align: left;
     padding-bottom: 0em !important;
   }
 
   .content p {
-    text-align: center;
+    text-align: left;
     padding-bottom: 0em !important;
   }
-  #hero-btn {
+
+  /* #hero-btn {
     display: flex;
     justify-content: center;
+  } */
+}
+
+@media (max-width : 400px) {
+  .ui-button-wpp {
+    background-color: #25d366;
+    font-size: 17px !important;
   }
 }
 
