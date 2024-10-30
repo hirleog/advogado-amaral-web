@@ -93,6 +93,16 @@ html body {
 }
 
 @media (max-width : 450px) {
+  .video-background::before {
+    height: 110%;
+  }
+
+  .banner-img {
+    transform: scale(1.2);
+    /* Ajuste o valor conforme necessário */
+
+  }
+
   #banner-mobile img {
     width: 100%;
     height: auto;

@@ -62,10 +62,10 @@
   font-size: large;
   color: var(--primary);
 }
-
+/* 
 .about-content h1 {
   color: var(--primary);
-}
+} */
 
 #logo {
   width: 100%;
@@ -140,7 +140,7 @@
 .ui-button:hover {
   padding: 20px 45px;
   display: inline-block;
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   /* color: var(--light); */
   font-size: 20px;
   font-family: var(--heading-font-family);
