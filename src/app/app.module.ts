@@ -1,4 +1,3 @@
-import { FooterComponent } from './template/footer/footer.component';
 import { NavComponent } from './template/nav/nav.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -9,6 +8,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { ScreenServiceComponent } from './components/screen-service/screen-service.component';
 import { WhatPeopleSayComponent } from './components/what-people-say/what-people-say.component';
 import { AboutComponent } from './components/about/about.component';
+import { FooterComponent } from './template/footer/footer.component';
 
 @NgModule({
   declarations: [
