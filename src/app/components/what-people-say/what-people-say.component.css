@@ -52,7 +52,7 @@
 }
 
 .title-review {
-  color: var(--primary);
+  /* color: var(--primary); */
   text-align: center;
   padding-bottom: 0.5em !important;
 }
@@ -61,7 +61,8 @@
 
 
 .testimonial-card {
-  background-color: #fff;
+  background-color: rgb(0 0 0 / 30%);
+  backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -78,11 +79,15 @@
 
 .testimonial-comment {
   font-style: italic;
-  color: #555;
+  color: var(--light);
   margin-bottom: 15px;
 }
 
 .testimonial-author {
   font-weight: bold;
-  color: #333;
+  color: var(--primary);
+}
+
+.card-subtitle {
+  color: var(--light) !important;
 }
